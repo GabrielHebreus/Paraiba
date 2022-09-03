@@ -60,3 +60,31 @@ header .menu a:hover{
 header .menu li {
     list-style: none;
 }
+.Bg-main{
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ background-image: url(/img/Background/Paraiba.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100vw;
+ height: 470px;
+ 
+}
+section .text-1 h1{
+    font-size: 7rem;
+    color: #f3f3f3;
+    margin-left: 600px;
+    
+}
+section .text-1 p{
+    color: #f3f3f3;
+    margin-left: 600px;
+    font-size: 3rem;
+}
+main h4{
+    margin: 30px;
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 0px;
+}

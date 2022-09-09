@@ -215,8 +215,8 @@ footer {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 220px;
-    background-color: white; 
+    height: 210px;
+    background-color: white;  
 }
 
 footer .perfil{
@@ -224,10 +224,10 @@ footer .perfil{
     height: 100%;
     background-position: center;
     background-repeat: no-repeat; 
-}
+    }
 
 footer #imgPerfilBianca {
-    background-image: url("../img/ImgPerfilBianca.png");
+    background-image: url("../img/ImgBianca.png");
 }
 
 
@@ -239,10 +239,11 @@ footer #imgPerfilGabriela {
     background-image: url("../img/ImgPerfilGabriela.png");
 }
 
-footer a {
-    margin-left: 1em;
-}
 
+footer a {
+    display: flex;
+    margin-left: 1em;    
+}
 
 
 .rodape p {
@@ -253,4 +254,17 @@ footer a {
     padding-top: 10px;
     color: white;
 }
+
+.bi-linkedin {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-decoration: none; 
+    color: black;
+}
+
+.bi-github {
+    text-decoration: none; 
+    color: red;
+}
+
 

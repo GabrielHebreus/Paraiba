@@ -9,6 +9,7 @@
 
 }
 
+
 header{
     background-color: rgba(189, 187, 187, 0.315);
     display: flex;
@@ -268,5 +269,4 @@ footer a {
     text-decoration: none; 
     color: red;
 }
-
 

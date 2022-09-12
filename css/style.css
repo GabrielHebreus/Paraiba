@@ -342,7 +342,7 @@ footer a {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height:700vh;
+        height:900vh;
        
     }
     .carrosel{
@@ -398,8 +398,10 @@ footer a {
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
-        margin-top: 670px;
+        bottom:-652%;
         margin-left: 8%;
+        position:absolute;
+        
     }
     .video3{
         margin-left: 2%;
@@ -413,6 +415,7 @@ footer a {
         
         
         
+        
     }
     h3{
         position: relative;
@@ -422,8 +425,12 @@ footer a {
     }
     h4{
         position: relative;
-        height: 800px;
-        padding-left: 100px;
+        bottom: 0%;
+        left: -80%;
+        font-size: 1rem;
+        text-align: center;
+        
+    
     }
     .nome{
         display: none;

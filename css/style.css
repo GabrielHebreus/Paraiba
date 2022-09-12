@@ -5,6 +5,7 @@
     padding: 0px;
     font-family: 'Work Sans';
     box-sizing: border-box;
+    margin-left: -6px;
     
 
 }
@@ -13,8 +14,8 @@
 header{
     background-color: rgba(189, 187, 187, 0.315);
     display: flex;
-    width: 100%;
-    height: 120px;
+    width: 100vw;
+    height: 19.2vh;
     position: fixed;
     z-index: 1;
     justify-content: center;
@@ -23,8 +24,8 @@ header{
 
 header .logo {
     background-repeat: no-repeat;
-    width: 300px;
-    height: 150px;
+    width: 21.96vw;
+    height: 24vh;
     
     
     
@@ -37,7 +38,7 @@ header .logo {
 header .menu ol {
 
     display: flex;
-    width: 100%;
+    width: 55vw;
     margin-top: 45px;  
     margin-left: 45px; 
 }
@@ -51,8 +52,6 @@ header .menu a {
     color: white;
     border-radius: 20px;
     opacity: 1;
-  
-
     border: 2px solid black;
 
 }
@@ -74,7 +73,7 @@ header .menu li {
  background-repeat: no-repeat;
  background-size: cover;
  width: 100vw;
- height: 470px;
+ height: 74.40vh;
  border-bottom: 7px solid tomato;
  
 }
@@ -100,6 +99,7 @@ main h4{
 
 
 
+
 /*main*/
 
 main{
@@ -107,6 +107,7 @@ main{
     width: 100vw;
     height: 250vh;
     display: flex;
+    
     
 }
 
@@ -118,25 +119,27 @@ main{
     width: 17.13vw;
     height: 100vh;
     margin-top: 10%;
-    margin-left: -7%;
+    margin-left: -12%;
     
 }
 .card{
     position: relative;
-    width: 27.37vw;
-    height: 93.92vh;
+    width: 90.37vw;
+    height: 95.92vh;
     margin: 8%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: tomato;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+
     
 }
 .fundo{
-    width: 20.05vw;
-    height: 34.88vh;
+    width: 25.05vw;
+    height: 36.88vh;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    margin-left: 0px;
 
 }
 .text-card {
@@ -146,8 +149,12 @@ main{
     align-items: center;
     font-weight: 400;
     text-align: center;
-    line-height: 1.6;
+    line-height: 1.5;
     font-family: 'Roboto';
+    padding-left: 12px;
+    color: #f3f3f3;
+    font-size: 1rem;
+    
 }
 h2{
     text-align: center;
@@ -156,20 +163,14 @@ h2{
     font-weight: 400px;
     font-family: "montserrat", sans-serif;
 }  
- .text-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 200;
-    color: #f3f3f3;
- }
+ 
+ 
 .link   {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 145px;
-    height: 55px;
+    width: 10vw;
+    height: 10vh;
     background-color: #f7adad;
     margin-top: 24px;
     font-size: 0.9rem;
@@ -189,9 +190,9 @@ h3{
     font-size: 2.5rem;
     font-family: "montserrat", sans-serif;
     line-height: 1;
-    width: 100%;
-    height: 80px;  
-    padding-left: 22px;
+    width: 100vw;
+    height: 12.8vh;  
+    padding-left: 30px;
     padding-top: 20px;  
 }
 
@@ -202,13 +203,20 @@ h3{
     height: 90vh;
     margin-top: 65%;
     justify-content: space-around;
-    margin-left: 10%;
+    margin-left: 16%;
+    
+    
 }
 .video3{
     margin-left: 12%;
+    
 }
     
-    
+iframe{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: 10px solid #f3f3f3
+}
 
 
 
@@ -217,20 +225,27 @@ h3{
 footer {
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    height: 210px;
+    width: 100vw;
+    height: 33.6vh;
     background-color: white;  
+    
+    
+    
 }
 
 footer .perfil{
-    width: 25%;
-    height: 100%;
+    width: 100vw;
+    height: 33vh;
     background-position: center;
     background-repeat: no-repeat; 
+    
+    
     }
 
 footer #imgPerfilBianca {
     background-image: url("../img/ImgBianca.png");
+    margin-left: 50px;
+    padding-left: 60px;
 }
 
 
@@ -240,6 +255,8 @@ footer #imgPerfilGabriel {
 
 footer #imgPerfilGabriela {
     background-image: url("../img/ImgGabriela.png");
+    
+
 }
 
 
@@ -252,10 +269,11 @@ footer a {
 .rodape p {
     font-family: "montserrat", sans-serif;
     background-color: black;
-    height: 40px; 
+    height: 6.4vh; 
     text-align: center;
     padding-top: 10px;
     color: white;
+    font-size: 1rem;
 }
 
 .bi-linkedin {
@@ -269,4 +287,133 @@ footer a {
     text-decoration: none; 
     color: red;
 }
+@media(max-width: 460px){
+    .Bg-main{
+        display: none;;
+    }
+    header .logo{
+        display: none;
+        
+    }
+    header .menu ol{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90vw;
+    }
+    header .menu a{
+        display: flex;
+        margin: 5px;
+        height: 10vh;
+        width: 95vw;
+        align-items: center;
+        margin-left: -22px;
+        
+
+    }
+    header{
+        position: absolute;
+        height: 57vh;
+        width: 100vw;
+        background-color: none;
+        margin-left: 12px;
+        
+        
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:700vh;
+       
+    }
+    .carrosel{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: 100vh;
+        margin-left: 22px;
+    }
+    .text-card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: 70vh;
+        font-size: 1rem;
+        line-height: 1.4rem;
+       
+        
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: 180vh;
+        margin-left: 22px;
+    }
+    .fundo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: 70vh;
+        width: 416px;
+    }
+    .link{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: 10vh;
+        width: 20vw;
+        margin: 12px;
+    }
+    h2{
+        font-size: 2rem;
+        margin-top: 62px;
+    }
+    .videos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-top: 670px;
+    }
+    .video3{
+        margin-left: 2%;
+    }
+    iframe{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 400px;
+        margin-left: -22%;
+        
+        
+    }
+    h3{
+        position: relative;
+        font-size: 2rem;
+        top: 550px;
+        left: 53px;
+    }
+    h4{
+        position: relative;
+        height: 800px;
+        padding-left: 100px;
+    }
+    .nome{
+        display: none;
+        
+    }
+   
+    
+}
+
+    
 

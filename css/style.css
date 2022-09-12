@@ -41,18 +41,18 @@ header .menu ol {
     width: 55vw;
     margin-top: 45px;  
     margin-left: 45px; 
+    justify-content: space-between;
 }
 
 header .menu a {
     font-weight: bold;
     padding: 10px 40px;    
-    margin-right: 40px;
+    margin-right: 50px;
     text-decoration: none;
     background-color: red;
     color: white;
     border-radius: 20px;
     opacity: 1;
-    border: 2px solid black;
 
 }
 
@@ -74,7 +74,7 @@ header .menu li {
  background-size: cover;
  width: 100vw;
  height: 74.40vh;
- border-bottom: 7px solid tomato;
+
  
 }
 section .text-1 h1{
@@ -89,12 +89,16 @@ section .text-1 p{
     font-size: 3rem;
 }
 main h4{
-    margin: 30px;
+    margin: 50px;
     color: black;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-left: 22px;
     font-family: "montserrat", sans-serif;
     line-height: 1;
+    position:absolute;
+    margin-left: 220px;
+    padding: 0 190px 0 190px;
+
 }
 
 
@@ -119,9 +123,10 @@ main{
     width: 17.13vw;
     height: 100vh;
     margin-top: 10%;
-    margin-left: -12%;
+    margin-left: 150px;
     
 }
+
 .card{
     position: relative;
     width: 90.37vw;
@@ -134,6 +139,9 @@ main{
 
     
 }
+
+
+
 .fundo{
     width: 25.05vw;
     height: 36.88vh;
@@ -154,6 +162,7 @@ main{
     padding-left: 12px;
     color: #f3f3f3;
     font-size: 1rem;
+    padding: 20px;
     
 }
 h2{
@@ -174,15 +183,18 @@ h2{
     background-color: #f7adad;
     margin-top: 24px;
     font-size: 0.9rem;
+    font-weight: bold;
     line-height: 18px;
     color: black;
     text-decoration: none;
 
 }
 a:active{
+    
     transform:scale(0.98);
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
+
 h3{ 
     position:absolute;
     margin-top: 60%;
@@ -192,8 +204,8 @@ h3{
     line-height: 1;
     width: 100vw;
     height: 12.8vh;  
-    padding-left: 30px;
-    padding-top: 20px;  
+    padding-left: 480px;
+    padding-top: 50px;  
 }
 
 .videos{
@@ -201,14 +213,16 @@ h3{
     justify-content: center;
     width: 17.13vw;
     height: 90vh;
-    margin-top: 65%;
+    margin-top: 70%;
     justify-content: space-around;
-    margin-left: 16%;
+    margin-left: 220px;
+
     
     
 }
 .video3{
     margin-left: 12%;
+    margin-top: 20px;
     
 }
     

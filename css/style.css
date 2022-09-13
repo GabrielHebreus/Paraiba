@@ -406,30 +406,29 @@ footer a {
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
-        bottom: -520%;
-        margin-left: 0%;
+        margin-left: 0;
         position:absolute;
+        margin: 22px;
+        top: 2800px;
         
     }
     .video3{
-        margin-left: 2%;
+        margin-left: 2%; 
     }
     iframe{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        width: 400px;
+        width: 350px;
+        height: 200px;
         
-        
-        
-        
+
     }
     h3{
-        position: relative;
+        
         font-size: 1.6rem;
-        top: 520px;
-        padding-left: 20px;
+        top: 2780px;
+        margin: 0;
+        padding: 0;
+        left: 22px;
+        
     }
     main h4{
         bottom: 37%;

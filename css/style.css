@@ -417,10 +417,10 @@ footer a {
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
-        margin-left: 0;
+        left: 30px;
         position:absolute;
-        margin: 22px;
-        top: 3600px;
+        margin: 0px;
+        top: 2650px;
         
     }
     .video3{
@@ -435,10 +435,10 @@ footer a {
     h3{
         
         font-size: 1.6rem;
-        top: 3680px;
+        top: 2630px;
         margin: 0;
         padding: 0;
-        left: 22px;
+        left: 32px;
         
     }
     main h4{
@@ -470,7 +470,7 @@ footer a {
     }
 
     footer .perfil{
-        display: flex;
+        display: none;
         flex-direction: row;
         width: auto;
         height: auto;

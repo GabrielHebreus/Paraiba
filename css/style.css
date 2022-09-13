@@ -420,7 +420,7 @@ footer a {
         margin-left: 0;
         position:absolute;
         margin: 22px;
-        top: 3300px;
+        top: 3600px;
         
     }
     .video3{
@@ -435,7 +435,7 @@ footer a {
     h3{
         
         font-size: 1.6rem;
-        top: 3340px;
+        top: 3680px;
         margin: 0;
         padding: 0;
         left: 22px;
@@ -470,7 +470,11 @@ footer a {
     }
 
     footer .perfil{
-        display: none;
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+
     }
     .rodape p {
         font-family: "montserrat", sans-serif;
@@ -483,6 +487,18 @@ footer a {
         width: 100%;
         
     }
+    .bi-linkedin {
+        margin-top: 30px;
+        margin-bottom: 5px;
+        text-decoration: none; 
+        color: black;
+    }
+    
+    .bi-github {
+        text-decoration: none; 
+        color: red;
+    }
+        
     
 
 

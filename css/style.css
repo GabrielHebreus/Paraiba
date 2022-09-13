@@ -134,7 +134,7 @@ main{
     position: relative;
     width: 90.37vw;
     height: 95.92vh;
-    margin: 8%;
+    margin-right: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: tomato;
     border-top-left-radius: 12px;
@@ -186,7 +186,7 @@ h2{
     background-color: #f7adad;
     margin-top: 24px;
     font-size: 0.9rem;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 18px;
     color: black;
     text-decoration: none;
@@ -318,23 +318,23 @@ footer a {
         flex-direction: column;
         justify-content: space-between;
         width: 90vw;
+        margin-left: 0px;
+        margin-top: 12px;
     }
     header .menu a{
         display: flex;
-        margin: 5px;
+        margin-bottom: 5px;
         height: 10vh;
-        width: 95vw;
         align-items: center;
-        margin-left: -22px;
+        margin-right: 0px;
         
 
     }
     header{
         position: absolute;
-        height: 57vh;
-        width: 100vw;
+        height: 0px;
         background-color: none;
-        margin-left: 12px;
+        margin: 12px;
         
         
     }
@@ -352,7 +352,9 @@ footer a {
         flex-wrap: nowrap;
         justify-content: center;
         height: 100vh;
-        margin-left: 22px;
+        margin: 0;
+        
+       
     }
     .text-card{
         display: flex;
@@ -366,22 +368,25 @@ footer a {
         font-weight: 400;
        
         
+    
+    
+        
     }
     .card{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
+        
         height: 180vh;
-        margin-left: 8%;
+        margin-bottom: 15px;
+        margin-left: 30px;
+        
     }
     .fundo{
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
-        height: 70vh;
-        width: 372px;
+        height: auto;
+        width: 100%;
+        
     }
     .link{
         display: flex;
@@ -422,18 +427,17 @@ footer a {
     }
     h3{
         position: relative;
-        font-size: 1rem;
-        top: 600px;
-        left: 25%;
-        padding-left: 0px;
+        font-size: 1.6rem;
+        top: 520px;
+        padding-left: 20px;
     }
     main h4{
         bottom: 37%;
-        font-size: 1rem;
+        font-size: 1.8rem;
         text-align: center;
         margin: 0px;
         padding: 0px;
-        right: 19%;
+        
       
     
     }
@@ -445,8 +449,19 @@ footer a {
     *{
         margin: 0px;
         padding: 0px;
+        font-family: 'Work Sans';
+        box-sizing: border-box;
+        
+    }
+
+    footer{
+        margin: 0;
+        padding: 0;
     }
     
+
+
+   
     
    
     

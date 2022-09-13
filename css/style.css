@@ -306,7 +306,8 @@ footer a {
 }
 @media(max-width: 460px){
     .Bg-main{
-        display: none;;
+        display: none;
+        
     }
     header .logo{
         display: none;
@@ -342,7 +343,7 @@ footer a {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height:900vh;
+        height: 620vh;
        
     }
     .carrosel{
@@ -361,6 +362,8 @@ footer a {
         height: 70vh;
         font-size: 1rem;
         line-height: 1.4rem;
+        list-style: normal;
+        font-weight: 400;
        
         
     }
@@ -398,8 +401,8 @@ footer a {
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
-        bottom:-652%;
-        margin-left: 8%;
+        bottom: -520%;
+        margin-left: 0%;
         position:absolute;
         
     }
@@ -419,23 +422,32 @@ footer a {
     }
     h3{
         position: relative;
-        font-size: 2rem;
-        top: 550px;
-        left: 53px;
+        font-size: 1rem;
+        top: 600px;
+        left: 25%;
+        padding-left: 0px;
     }
-    h4{
-        position: relative;
-        bottom: 0%;
-        left: -80%;
+    main h4{
+        bottom: 37%;
         font-size: 1rem;
         text-align: center;
-        
+        margin: 0px;
+        padding: 0px;
+        right: 19%;
+      
     
     }
     .nome{
         display: none;
         
     }
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    
    
     
 }

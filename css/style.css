@@ -308,6 +308,7 @@ footer a {
     .Bg-main{
         display: none;
         
+        
     }
     header .logo{
         display: none;
@@ -343,16 +344,24 @@ footer a {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 620vh;
+        height: 570vh;
+        padding: 0;
+        margin: 0;
        
     }
     .carrosel{
+        
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
-        height: 100vh;
-        margin: 0;
+        margin: 30px;
+        top: 100%;
+        padding: 0;
+        
+        
+        
+        
         
        
     }
@@ -376,7 +385,9 @@ footer a {
         
         height: 180vh;
         margin-bottom: 15px;
-        margin-left: 30px;
+        
+        
+        
         
     }
     .fundo{
@@ -409,7 +420,7 @@ footer a {
         margin-left: 0;
         position:absolute;
         margin: 22px;
-        top: 2800px;
+        top: 3300px;
         
     }
     .video3{
@@ -424,7 +435,7 @@ footer a {
     h3{
         
         font-size: 1.6rem;
-        top: 2780px;
+        top: 3340px;
         margin: 0;
         padding: 0;
         left: 22px;
@@ -456,6 +467,21 @@ footer a {
     footer{
         margin: 0;
         padding: 0;
+    }
+
+    footer .perfil{
+        display: none;
+    }
+    .rodape p {
+        font-family: "montserrat", sans-serif;
+        background-color: black;
+        height: 6.4vh; 
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+        font-size: 0.60rem;    
+        width: 100%;
+        
     }
     
 
